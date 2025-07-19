@@ -10,24 +10,32 @@ local This_MOD = {}
 
 --- Iniciar el modulo
 function This_MOD.start()
+    --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+
+    --- Obtener información desde el nombre de MOD
+    GPrefix.split_name_folder(This_MOD)
+
     --- Valores de la referencia
-    This_MOD.setSetting()
+    This_MOD.setting_mod()
 
-    --- Información a usar
-    This_MOD.BuildInfo()
+    -- --- Información a usar
+    -- This_MOD.BuildInfo()
 
-    --- Cambiar la propiedad necesaria
-    This_MOD.ChangePproperty()
+    -- --- Cambiar la propiedad necesaria
+    -- This_MOD.ChangePproperty()
+
+    --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 end
 
 --- Valores de la referencia
-function This_MOD.setSetting()
-    --- Otros valores
-    Prefix       = "zzzYAIM0425-0700-"
-    This_MOD.name = "icon-in-barrel-filled"
+function This_MOD.setting_mod()
+    --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
     --- Contenedor
-    This_MOD.Info = { load = {} }
+    This_MOD.Info = {}
+    This_MOD.Info.load = {}
+
+    --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 end
 
 ---------------------------------------------------------------------------------------------------
