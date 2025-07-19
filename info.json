@@ -4,7 +4,7 @@
   "title": "zzzYAIM0425 0700 Icon in filled barrels",
   "author": "YAIM904",
   "factorio_version": "2.0",
-  "description": "Modify the icon in the filled barrels, now including the icon of the liquid it contains.",
+  "description": "Modify the icon in the filled barrels, now including the icon of the liquid it contains. [[I accept suggestions]]",
   "dependencies": [
     "base",
     "zzzYAIM0425-0000-lib"
