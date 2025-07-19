@@ -4,30 +4,30 @@
 
 --- Contenedor de funciones y datos usados
 --- unicamente en este archivo
-local ThisMOD = {}
+local This_MOD = {}
 
 ---------------------------------------------------------------------------------------------------
 
 --- Iniciar el modulo
-function ThisMOD.Start()
+function This_MOD.start()
     --- Valores de la referencia
-    ThisMOD.setSetting()
+    This_MOD.setSetting()
 
     --- Información a usar
-    ThisMOD.BuildInfo()
+    This_MOD.BuildInfo()
 
     --- Cambiar la propiedad necesaria
-    ThisMOD.ChangePproperty()
+    This_MOD.ChangePproperty()
 end
 
 --- Valores de la referencia
-function ThisMOD.setSetting()
+function This_MOD.setSetting()
     --- Otros valores
     Prefix       = "zzzYAIM0425-0700-"
-    ThisMOD.name = "icon-in-barrel-filled"
+    This_MOD.name = "icon-in-barrel-filled"
 
     --- Contenedor
-    ThisMOD.Info = { load = {} }
+    This_MOD.Info = { load = {} }
 end
 
 ---------------------------------------------------------------------------------------------------
@@ -39,7 +39,7 @@ end
 ---------------------------------------------------------------------------------------------------
 
 --- Información a usar
-function ThisMOD.BuildInfo()
+function This_MOD.BuildInfo()
     local function Load(recipe)
         --- Validación
         if #recipe.results ~= 1 then return end
@@ -51,14 +51,14 @@ function ThisMOD.BuildInfo()
 
         --- Crear el espacio para la entidad
         local name              = recipe.results[1].name
-        local Space             = ThisMOD.Info.load[name] or {}
-        ThisMOD.Info.load[name] = Space
+        local Space             = This_MOD.Info.load[name] or {}
+        This_MOD.Info.load[name] = Space
 
         --- Guardar la información
         Space.item              = GPrefix.items[name]
 
         if not Space.item or not GPrefix.recipes[Space.item.name] then
-            ThisMOD.Info.load[name] = nil
+            This_MOD.Info.load[name] = nil
             return
         end
 
@@ -73,8 +73,8 @@ function ThisMOD.BuildInfo()
 end
 
 --- Cambiar la propiedad necesaria
-function ThisMOD.ChangePproperty()
-    for _, Space in pairs(ThisMOD.Info.load) do
+function This_MOD.ChangePproperty()
+    for _, Space in pairs(This_MOD.Info.load) do
         Space.item.icons = Space.recipe.icons
     end
 end
@@ -88,6 +88,6 @@ end
 ---------------------------------------------------------------------------------------------------
 
 --- Iniciar el modulo
-ThisMOD.Start()
+This_MOD.start()
 
 ---------------------------------------------------------------------------------------------------
