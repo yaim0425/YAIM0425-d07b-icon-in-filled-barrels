@@ -21,8 +21,8 @@ function This_MOD.start()
     --- Información a usar
     This_MOD.get_recipes()
 
-    -- --- Cambiar la propiedad necesaria
-    -- This_MOD.ChangePproperty()
+    --- Cambiar la propiedad necesaria
+    This_MOD.set_icon_in_item()
 
     --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 end
@@ -88,10 +88,14 @@ function This_MOD.get_recipes()
 end
 
 --- Cambiar la propiedad necesaria
-function This_MOD.ChangePproperty()
-    for _, Space in pairs(This_MOD.Info.load) do
-        Space.item.icons = Space.recipe.icons
+function This_MOD.set_icon_in_item()
+    --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+
+    for _, space in pairs(This_MOD.recipes) do
+        space.item.icons = space.recipe.icons
     end
+
+    --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 end
 
 ---------------------------------------------------------------------------------------------------
