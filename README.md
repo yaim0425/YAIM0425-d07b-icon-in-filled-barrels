@@ -25,4 +25,3 @@ The main goal is to **improve the visual readability** of filled barrels, allowi
 - All its content is available to anyone who needs it; I'm open to changes, fixes, and suggestions.
 
 ![](https://raw.githubusercontent.com/yaim0425/zzzYAIM0425-0700-icon-in-filled-barrels/main/Doc/base/Screenshot%20(1).png)  
-![](https://raw.githubusercontent.com/yaim0425/zzzYAIM0425-0700-icon-in-filled-barrels/main/Doc/base/Screenshot%20(2).png)

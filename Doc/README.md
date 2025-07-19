@@ -25,4 +25,3 @@ El objetivo principal es **mejorar la legibilidad visual** de los barriles lleno
 - Todo su contenido está disponible para quien lo necesite; estoy abierto a cambios, correcciones y sugerencias.
 
 ![](https://raw.githubusercontent.com/yaim0425/zzzYAIM0425-0700-icon-in-filled-barrels/main/Doc/base/Screenshot%20(1).png)  
-![](https://raw.githubusercontent.com/yaim0425/zzzYAIM0425-0700-icon-in-filled-barrels/main/Doc/base/Screenshot%20(2).png)
