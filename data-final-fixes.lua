@@ -56,8 +56,8 @@ function This_MOD.get_recipes()
         if #recipe.ingredients ~= 2 then return end
         local Item  = GPrefix.get_table(recipe.ingredients, "name", "barrel")
         local Fuild = GPrefix.get_table(recipe.ingredients, "type", "fluid")
-        if not Item.name then return end
-        if not Fuild.name then return end
+        if not Item then return end
+        if not Fuild then return end
 
         --- Crear el espacio para la entidad
         local name = recipe.results[1].name
