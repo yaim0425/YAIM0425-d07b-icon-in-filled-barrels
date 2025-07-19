@@ -32,8 +32,7 @@ function This_MOD.setting_mod()
     --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
     --- Contenedor
-    This_MOD.Info = {}
-    This_MOD.Info.load = {}
+    This_MOD.recipes = {}
 
     --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 end
@@ -58,12 +57,12 @@ function This_MOD.BuildInfo()
         if not Fuild.name then return end
 
         --- Crear el espacio para la entidad
-        local name              = recipe.results[1].name
-        local Space             = This_MOD.Info.load[name] or {}
+        local name = recipe.results[1].name
+        local Space = This_MOD.Info.load[name] or {}
         This_MOD.Info.load[name] = Space
 
         --- Guardar la información
-        Space.item              = GPrefix.items[name]
+        Space.item = GPrefix.items[name]
 
         if not Space.item or not GPrefix.recipes[Space.item.name] then
             This_MOD.Info.load[name] = nil
