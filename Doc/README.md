@@ -24,4 +24,6 @@ El objetivo principal es **mejorar la legibilidad visual** de los barriles lleno
 - Compatible con MODs que añaden nuevos fluidos  
 - Todo su contenido está disponible para quien lo necesite; estoy abierto a cambios, correcciones y sugerencias.
 
+## 🖼️ Capturas
+
 ![](https://raw.githubusercontent.com/yaim0425/zzzYAIM0425-0700-icon-in-filled-barrels/main/Doc/base/Screenshot%20(1).png)  
