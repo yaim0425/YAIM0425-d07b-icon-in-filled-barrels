@@ -4,7 +4,9 @@
 
 This MOD, `zzzYAIM0425-0700-icon-in-filled-barrels`, **modifies the icons of filled barrels** to include the **icon of the fluid they contain**, improving visual clarity in Factorio.
 
-> 🧩 This MOD is part of the [zzzYAIM0425 series](https://github.com/yaim0425), designed to offer modular improvements and utilities that enhance the gameplay experience.
+> 🧩 Part of the [zzzYAIM0425 series](https://github.com/yaim0425), designed to offer modular improvements and utilities to enhance the game experience.  
+> 🔧 Depends on [`zzzYAIM0425 0000 lib`](https://github.com/yaim0425/zzzYAIM0425-0000-lib), which is handled automatically by the system.  
+> All its content is available to anyone who needs it; I'm open to changes, corrections, and suggestions.
 
 ## 📦 Purpose
 
