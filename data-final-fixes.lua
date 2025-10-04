@@ -102,6 +102,8 @@ function This_MOD.get_elements()
 
         --- Validar la receta
         if not recipe then return end
+        if not recipe.results then return end
+        if not recipe.ingredients then return end
         if GMOD.is_hidde(recipe) then return end
 
 		---  Cantidad de entrada y salida
