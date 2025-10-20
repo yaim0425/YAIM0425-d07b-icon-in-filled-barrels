@@ -81,7 +81,7 @@ function This_MOD.get_elements()
     --- Función para analizar cada entidad
     --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
-    local function valide_recipe(recipe)
+    local function validate_recipe(recipe)
         --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
         --- Validación
         --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
@@ -143,7 +143,7 @@ function This_MOD.get_elements()
     --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
     for _, recipe in pairs(data.raw.recipe) do
-        valide_recipe(recipe)
+        validate_recipe(recipe)
     end
 
 	--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
