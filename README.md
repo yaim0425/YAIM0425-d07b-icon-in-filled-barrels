@@ -29,12 +29,23 @@ This MOD is purely **visual / quality-of-life** and does not change gameplay mec
 
 ## 🔗 Repository
 
-* GitHub: [https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels](https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels)
+**MOD**
+[YAIM0425 d07b Icon in filled barrels](https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels)
+
+**Required**
+
+[YAIM0425 d00b Core](https://github.com/yaim0425/YAIM0425-d00b-core)
+
+---
+
+## ❤️ Support
+
+Suggestions, ideas, and balance feedback are welcome on the GitHub repository.
 
 ---
 
 ## 🖼️ Screenshots
 
-![Filled Barrel Icon Screenshot 1](screenshot/\(1\).png)
+![Screenshot 1](https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels/raw/code/screenshot/(1).png)
 
----
+![Screenshot 2](https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels/raw/code/screenshot/(2).png)
