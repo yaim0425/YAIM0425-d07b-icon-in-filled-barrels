@@ -1,12 +1,12 @@
 {
-  "name": "YAIM0425-d07b-icon-in-filled-barrels",
+  "name": "YAIM904-d07b-icon-in-filled-barrels",
   "version": "0.0.1",
-  "title": "YAIM0425 d07b Icon in filled barrels",
-  "author": "YAIM0425",
+  "title": "YAIM904 d07b Icon in filled barrels",
+  "author": "YAIM904",
   "factorio_version": "2.0",
   "description": "Modify the icon in the filled barrels, now including the icon of the liquid it contains. [[I accept suggestions]]",
-  "homepage": "https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels",
+  "homepage": "https://github.com/yaim0425/YAIM904-d07b-icon-in-filled-barrels",
   "dependencies": [
-    "YAIM0425-d00b-core"
+    "YAIM904-d00b-core"
   ]
 }

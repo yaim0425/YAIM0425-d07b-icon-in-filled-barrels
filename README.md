@@ -1,8 +1,8 @@
-# YAIM0425 d07b – Icon in Filled Barrels 🛢️🎨
+# YAIM904 d07b – Icon in Filled Barrels 🛢️🎨
 
 ## 📦 Description
 
-**YAIM0425 d07b – Icon in Filled Barrels** improves visual clarity by modifying the icons of **filled barrels** so they also display the **icon of the fluid inside**.
+**YAIM904 d07b – Icon in Filled Barrels** improves visual clarity by modifying the icons of **filled barrels** so they also display the **icon of the fluid inside**.
 
 This makes it much easier to identify barrel contents at a glance in inventories, logistics networks, and tooltips.
 
@@ -30,11 +30,11 @@ This MOD is purely **visual / quality-of-life** and does not change gameplay mec
 ## 🔗 Repository
 
 **MOD**
-[YAIM0425 d07b Icon in filled barrels](https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels)
+[YAIM904 d07b Icon in filled barrels](https://github.com/yaim0425/YAIM904-d07b-icon-in-filled-barrels)
 
 **Required**
 
-[YAIM0425 d00b Core](https://github.com/yaim0425/YAIM0425-d00b-core)
+[YAIM904 d00b Core](https://github.com/yaim0425/YAIM904-d00b-core)
 
 ---
 
@@ -46,6 +46,6 @@ Suggestions, ideas, and balance feedback are welcome on the GitHub repository.
 
 ## 🖼️ Screenshots
 
-![Screenshot 1](https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels/raw/code/screenshot/(1).png)
+![Screenshot 1](https://github.com/yaim0425/YAIM904-d07b-icon-in-filled-barrels/raw/code/screenshot/(1).png)
 
-![Screenshot 2](https://github.com/yaim0425/YAIM0425-d07b-icon-in-filled-barrels/raw/code/screenshot/(2).png)
+![Screenshot 2](https://github.com/yaim0425/YAIM904-d07b-icon-in-filled-barrels/raw/code/screenshot/(2).png)
