@@ -1,10 +1,12 @@
 # YAIM904 d07b – Icon in Filled Barrels 🛢️🎨
 
+---
+
 ## 📦 Description
 
 **YAIM904 d07b – Icon in Filled Barrels** improves visual clarity by modifying the icons of **filled barrels** so they also display the **icon of the fluid inside**.
 
-This makes it much easier to identify barrel contents at a glance in inventories, logistics networks, and tooltips.
+This makes it much easier to identify barrel contents at a glance in inventories, logistics networks and tooltips.
 
 ---
 
@@ -40,7 +42,7 @@ This MOD is purely **visual / quality-of-life** and does not change gameplay mec
 
 ## ❤️ Support
 
-Suggestions, ideas, and balance feedback are welcome on the GitHub repository.
+Suggestions, ideas and balance feedback are welcome on the GitHub repository.
 
 ---
 
